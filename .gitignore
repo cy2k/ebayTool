@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+ebay_migration.db
+data/tokens/
+# Keep the images directory structure but ignore content if desired, 
+# for now let's ignore the downloaded images to keep repo light
+data/images/*
+!data/images/.gitkeep
+ebay_migration.db.BACKUP
+
+# Logs
+*.log
+
+# Editor directories
+.idea/
+.vscode/
+
+# Mac
+.DS_Store
